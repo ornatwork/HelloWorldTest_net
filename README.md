@@ -1,2 +1,2 @@
 # HelloWorldTest_net
-gRpc .net project test  
+gRpc .net test project   
