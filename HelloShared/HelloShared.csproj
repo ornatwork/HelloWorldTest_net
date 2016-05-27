@@ -66,4 +66,11 @@
     </PropertyGroup>
     <Error Condition="!Exists('..\packages\Grpc.Core.0.14.0\build\net45\Grpc.Core.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Grpc.Core.0.14.0\build\net45\Grpc.Core.targets'))" />
   </Target>
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PreBuildEvent>$(ProjectDir)..\generate_protos.bat</PreBuildEvent>
+  </PropertyGroup>
 </Project>
