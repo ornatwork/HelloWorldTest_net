@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{FF1EBE95-F20D-4C27-8A61-D0125F3C8152}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloShared", "HelloShared\HelloShared.csproj", "{ED31AD6F-DDCB-47C2-B410-81EA30B4CF7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloServer", "HelloServer\HelloServer.csproj", "{508FCBB7-1DDA-4E46-BB37-EA6B012CA496}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloClient", "HelloClient\HelloClient.csproj", "{0363C16A-C7E4-4E1A-9853-DD51290DB40D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED31AD6F-DDCB-47C2-B410-81EA30B4CF7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED31AD6F-DDCB-47C2-B410-81EA30B4CF7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED31AD6F-DDCB-47C2-B410-81EA30B4CF7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED31AD6F-DDCB-47C2-B410-81EA30B4CF7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{508FCBB7-1DDA-4E46-BB37-EA6B012CA496}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{508FCBB7-1DDA-4E46-BB37-EA6B012CA496}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{508FCBB7-1DDA-4E46-BB37-EA6B012CA496}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{508FCBB7-1DDA-4E46-BB37-EA6B012CA496}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0363C16A-C7E4-4E1A-9853-DD51290DB40D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0363C16A-C7E4-4E1A-9853-DD51290DB40D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0363C16A-C7E4-4E1A-9853-DD51290DB40D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0363C16A-C7E4-4E1A-9853-DD51290DB40D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Greeter\Greeter.csproj
+	EndGlobalSection
+EndGlobal
